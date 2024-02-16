@@ -1,0 +1,16 @@
+-- Verificando se um número é par ou ímpar
+IMPRIMA "Insira o número"
+LER.INTEIRO
+PULE.SE.IGUAL.ZERO L1
+
+LOOP:
+ADICIONE.INTEIRO 2
+DIFERENCA
+PULE.SE.IGUAL.ZERO L1
+PULE.SE.MAIORQUE.ZERO LOOP
+IMPRIMA "É impar."
+PARE
+
+L1:
+IMPRIMA "É par."
+PARE

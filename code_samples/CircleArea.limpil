@@ -1,0 +1,9 @@
+-- Calculando Área de um Círculo
+IMPRIMA "Insira o raio do círculo"
+LER.DECIMAL
+POTENCIA.QUADRADO
+ADICIONE.DECIMAL 3.14
+MUL
+IMPRIMA "A área do círculo é"
+RETIRE.E.IMPRIMA
+PARE

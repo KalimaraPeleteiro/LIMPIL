@@ -1,0 +1,14 @@
+-- Verificando se dois números são diferentes.
+IMPRIMA "Insira o primeiro número"
+LER.INTEIRO
+IMPRIMA "Insira o segundo número"
+LER.INTEIRO
+
+DIFERENCA
+PULE.SE.IGUAL.ZERO L1
+IMPRIMA "Os números são diferentes!"
+PARE
+
+L1:
+IMPRIMA "Os números são iguais!"
+PARE
