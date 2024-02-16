@@ -1,0 +1,8 @@
+IMPRIMA "Sua opção"
+LER.STRING
+
+SE "A":
+SE "B":
+SE "C":
+SE "D":
+PARE

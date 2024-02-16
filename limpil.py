@@ -60,6 +60,7 @@ for line in lines:
 stack = Stack(256)
 pc = 0      # program_counter
 
+
 while program[pc] != "PARE":
     opcode = program[pc]
     pc += 1
@@ -100,6 +101,11 @@ while program[pc] != "PARE":
         string_literal = program[pc]
         pc += 1
         print(string_literal)
+    elif opcode == "TOPO":
+        stack.top()
+    elif opcode == "LER.STRING":
+        string = str(input())
+        stack.push(string)
     elif opcode == "LER.INTEIRO":
         number = int(input())
         stack.push(number)
@@ -118,3 +124,8 @@ while program[pc] != "PARE":
             pc = label_tracker[program[pc]]
         else:
             pc += 1
+    elif opcode == "SE":
+        if program[pc] == stack.top():
+            pass # Fazer algo aq
+        else:
+            pc += 1 # Caso contrário, passar para o próximo estágio
