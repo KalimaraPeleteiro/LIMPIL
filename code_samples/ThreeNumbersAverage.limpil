@@ -1,0 +1,19 @@
+-- Calculando a Média Aritmética de Três números
+ADICIONE.INTEIRO 3
+
+IMPRIMA "Insira o primeiro número"
+LER.INTEIRO
+
+IMPRIMA "Insira o segundo número"
+LER.INTEIRO
+
+IMPRIMA "Insira o terceiro número"
+LER.INTEIRO
+
+SOMA
+SOMA
+DIV
+
+IMPRIMA "A média aritmética é"
+RETIRE.E.IMPRIMA
+PARE

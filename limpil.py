@@ -89,6 +89,10 @@ while program[pc] != "PARE":
         a = stack.pop()
         b = stack.pop()
         stack.push(a*b)
+    elif opcode == "DIV":
+        a = stack.pop()
+        b = stack.pop()
+        stack.push(a/b)
     elif opcode == "POTENCIA.QUADRADO":
         a = stack.pop()
         stack.push(a * a)
