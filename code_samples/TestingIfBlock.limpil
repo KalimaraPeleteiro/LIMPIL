@@ -1,0 +1,20 @@
+IMPRIMA "Sua opção"
+LER.INTEIRO
+
+SE 10:
+IMPRIMA "Bloco A"
+SE.FIM
+
+SE 20:
+IMPRIMA "Bloco B"
+SE.FIM
+
+SE 30:
+IMPRIMA "Bloco C"
+SE.FIM
+
+SE 40:
+IMPRIMA "Bloco D"
+SE.FIM
+
+PARE

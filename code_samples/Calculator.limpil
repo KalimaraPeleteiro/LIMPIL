@@ -1,0 +1,55 @@
+IMPRIMA "================================"
+IMPRIMA "Programa de Calculadora"
+IMPRIMA "================================"
+
+IMPRIMA "Escolha sua opção!"
+IMPRIMA ""
+IMPRIMA "A - ADIÇÃO"
+IMPRIMA "B - SUBTRAÇÃO"
+IMPRIMA "C - MULTIPLICAÇÃO"
+IMPRIMA "D - DIVISÃO"
+IMPRIMA ""
+LER.STRING
+IMPRIMA ""
+
+SE "a":
+IMPRIMA "Qual o primeiro número?"
+LER.INTEIRO
+IMPRIMA "Qual o segundo número?"
+LER.INTEIRO
+SOMA
+IMPRIMA "A resposta da soma é:"
+RETIRE.E.IMPRIMA
+SE.FIM
+
+SE "b":
+IMPRIMA "Qual o primeiro número?"
+LER.INTEIRO
+IMPRIMA "Qual o segundo número?"
+LER.INTEIRO
+DIFERENCA
+IMPRIMA "A resposta da subtração é:"
+RETIRE.E.IMPRIMA
+SE.FIM
+
+SE "c":
+IMPRIMA "Qual o primeiro número?"
+LER.INTEIRO
+IMPRIMA "Qual o segundo número?"
+LER.INTEIRO
+MUL
+IMPRIMA "A resposta da multiplicação é:"
+RETIRE.E.IMPRIMA
+SE.FIM
+
+SE "d":
+IMPRIMA "Qual o primeiro número?"
+LER.INTEIRO
+IMPRIMA "Qual o segundo número?"
+LER.INTEIRO
+DIV
+IMPRIMA "A resposta da divisão é:"
+RETIRE.E.IMPRIMA
+SE.FIM
+
+PARE
