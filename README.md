@@ -18,7 +18,8 @@ RETIRE.E.IMPRIMA
 PARE
 ```
 
-... e até mesmo blocos condicionais com `SE` e `SE.FIM`
+... e até mesmo blocos condicionais com `SE` e `SE.FIM`. Condicionais irão checar se o valor entregue é 
+equivalente ao valor no topo da pilha, e irão executar as instruções somente em caso de igualdade.
 ```
 --- Calculadora
 IMPRIMA "================================"
